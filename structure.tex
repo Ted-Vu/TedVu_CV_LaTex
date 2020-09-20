@@ -52,7 +52,7 @@
 % Content of the static frame with the vertical line
 \begin{staticcontents}{1}
 \hfill
-\tikz{\draw[loosely dotted,color=RoyalBlue,line width=1.5pt,yshift=0](0,0) -- (0,\textheight);}
+\tikz{\draw[loosely dotted,color=black,line width=1.5pt,yshift=0](0,0) -- (0,\textheight);}
 \hfill\mbox{}
 \end{staticcontents}
  
@@ -71,14 +71,14 @@
 
 \newcommand{\userinformation}[1]{\renewcommand{\userinformation}{#1}} % Define a new command for the CV user's information that goes into the left column
 
-\newcommand{\cvheading}[1]{{\Huge\bfseries\color{RoyalBlue} #1} \par\vspace{.6\baselineskip}} % New command for the CV heading
+\newcommand{\cvheading}[1]{{\Huge\bfseries\color{black} #1} \par\vspace{.6\baselineskip}} % New command for the CV heading
 \newcommand{\cvsubheading}[1]{{\Large\bfseries #1} \bigbreak} % New command for the CV subheading
 
 \newcommand{\Sep}{\vspace{1em}} % New command for the spacing between headings
 \newcommand{\SmallSep}{\vspace{0.5em}} % New command for the spacing within headings
 
 \newcommand{\aboutme}[2]{ % New command for the about me section
-\textbf{\color{RoyalBlue} #1}~~#2\par\Sep
+\textbf{\color{black} #1}~~#2\par\Sep
 }
 	
 \newcommand{\CVSection}[1]{ % New command for the headings within sections
@@ -87,9 +87,9 @@
 }
 
 \newcommand{\CVItem}[2]{ % New command for the item descriptions
-\textbf{\color{RoyalBlue} #1}\par
+\textbf{\color{Black} #1}\par
 #2
 \SmallSep % Used for spacing
 }
 
-\newcommand{\bluebullet}{\textcolor{RoyalBlue}{$\circ$}~~} % New command for the blue bullets
+\newcommand{\bluebullet}{\textcolor{Black}{$\circ$}~~} % New command for the blue bullets
