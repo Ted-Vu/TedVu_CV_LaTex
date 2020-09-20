@@ -1,6 +1,10 @@
 # TedVu_CV_LaTex
 This is my Vitae developed with Latex. 
 
+# TODO
+1. Format Spacing between lines 
+2. Check spacing between words
+
 # Author Attribute: 
 
 Wenneker Resume/CV
