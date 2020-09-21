@@ -1,5 +1,7 @@
 # TedVu_CV_LaTex
 This is my Vitae developed with Latex. 
+## Link 
+My CV can be accessed via this link: https://www.dropbox.com/s/l8gmi91dr2fyj6m/Ted_CV_2020.pdf?dl=0
 
 # TODO
 1. Format Spacing between lines 
